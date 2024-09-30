@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b5998;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar input {
+    width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+}
+
+.navbar-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-right a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Sidebar izquierda (Amigos sugeridos) */
+.sidebar {
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+/* Feed (Publicaciones) */
+.feed {
+    width: 55%;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin-bottom: 10px;
+}
+
+/* Sidebar derecha (Publicidad) */
+.sidebar-right {
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-right h2 {
+    margin-bottom: 10px;
+}
